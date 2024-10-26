@@ -1,0 +1,51 @@
+.email {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5em 0;
+    gap: 0.5em;
+
+}
+
+.email__titulo, .email__texto{
+    font-size: 18px;
+    font-weight: 500;
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip:text;
+    
+
+}
+
+.email__texto{
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+
+.email__pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    border-radius: 24px;
+    padding: 1em;
+    width: 80%;
+
+
+
+
+}
+
+.email__pesquisa::placeholder{
+    font-family: var(--fonte-principal);
+    font-size:14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--azul);
+    background: url(../assets/email.svg) no-repeat;
+    background-position: 1em;
+
+}
+
